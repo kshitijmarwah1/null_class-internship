@@ -1,0 +1,5 @@
+textblob
+streamlit
+pandas
+scikit-learn
+matplotlib

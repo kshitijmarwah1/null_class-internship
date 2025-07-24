@@ -10,7 +10,7 @@ This chatbot can:
 - `streamlit_gui.py`: Streamlit GUI for interaction.
 - `task2_demo.ipynb`: Notebook version.
 - `requirements.txt`: Dependencies.
-- `.env`: AIzaSyC0SN3iV249Tto4AtZK3nbAGi9ygQw73Fw. 
+- `.env`: Stores API key. 
 - `sample_inputs/sample_image.jpg`: Sample image for testing.
 
 ## Setup
@@ -18,9 +18,9 @@ This chatbot can:
     ```bash
     pip install -r requirements.txt
     ```
-2.  Add your API key to a `.env` file.
+2.  Add your API key to a `.env` file. **Never commit this file to your repository.**
     ```
-    GOOGLE_API_KEY="AIzaSyC0SN3iV249Tto4AtZK3nbAGi9ygQw73Fw"
+    GOOGLE_API_KEY="YOUR_API_KEY_HERE"
     ```
 
 ## Launch Streamlit UI
